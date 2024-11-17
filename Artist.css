@@ -1,0 +1,50 @@
+body{
+    background-image: url(b.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    
+    }
+h1 {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+    }
+h3 {
+    font-family: "Brush Script MT", cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;  
+    }
+.TopBar {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: pink;
+    }
+.TopBar a{
+    text-decoration: none;
+    margin: 10px 0;
+    }
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.art img {
+    max-width:30%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 300px
+    }
+.art img:hover {
+    transform: scale(1.05);
+}
+

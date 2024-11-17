@@ -1,0 +1,62 @@
+body{
+    background-image: url(MainCity.jpeg);
+    background-size: 100% 100%
+    background-repeat: no-repeat;
+    }
+h1 {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+    }
+h2 {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;  
+    }
+.TopBar {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: tan;
+    }
+.TopBar a{
+    text-decoration: none;
+    margin: 10px 0;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    }
+.adventure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.adventure img {
+    max-width:30%;
+    height: 290px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 260px
+    cursor: pointer;
+    transition: transform 0.2s;
+    }
+
+
+.adventure img:hover {
+    transform: scale(1.05);
+}
+
+#response {
+    font-family: "Brush Script MT", cursive;
+    margin-top: 20px;
+    font-size: 30px; 
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
